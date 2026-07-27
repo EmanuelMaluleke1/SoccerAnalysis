@@ -280,7 +280,7 @@ The platform must support future analytics and prediction modules without major 
 Version 1 integrates with:
 
 - Football Data Provider
-- PostgreSQL
+- SQL Server / Azure SQL Database
 - OpenAPI
 - Logging platform
 
@@ -615,7 +615,7 @@ The platform must support future analytics and prediction modules without major 
 Version 1 integrates with:
 
 - Football Data Provider
-- PostgreSQL
+- SQL Server / Azure SQL Database
 - OpenAPI
 - Logging platform
 

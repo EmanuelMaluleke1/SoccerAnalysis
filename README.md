@@ -30,7 +30,7 @@ Project documentation can be found in the `docs` directory.
 
 ### Database
 
-- PostgreSQL
+- SQL Server / Azure SQL Database
 
 ## Project Status
 

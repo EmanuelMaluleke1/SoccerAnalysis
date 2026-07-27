@@ -87,7 +87,7 @@ Every architectural decision should consider future analytical capabilities whil
 
 ## Database
 
-- PostgreSQL
+- SQL Server / Azure SQL Database
 
 ---
 
@@ -118,9 +118,9 @@ Every architectural decision should consider future analytical capabilities whil
 +-----------+-----------+
             |
             |
-+-----------v-----------+
-|      PostgreSQL       |
-+-----------+-----------+
++-----------v--------------------------------+
+|      SQL Server / Azure SQL Database       |
++-----------+--------------------------------+
             ^
             |
 +-----------+-----------+
@@ -333,7 +333,7 @@ The frontend never communicates directly with external providers.
 Version 1 integrates with:
 
 - Football Data Provider
-- PostgreSQL
+- SQL Server / Azure SQL Database
 
 Future integrations may include:
 
@@ -430,7 +430,7 @@ The following decisions have been made for Version 1.
 |----------|-----------|
 | React | Modern frontend ecosystem with excellent support for interactive dashboards. |
 | .NET 10 | Long-term support, high performance, and strong tooling. |
-| PostgreSQL | Reliable relational database with excellent analytical capabilities. |
+| SQL Server / Azure SQL Database |Enterprise-grade relational database that integrates seamlessly with .NET, Entity Framework Core, and Azure while providing high performance, reliability, security, and scalability.|
 | Modular Monolith | Lower complexity while supporting future modularisation. |
 | Worker Service | Simple background processing without introducing scheduling frameworks. |
 | REST API | Standardised communication between frontend and backend. |
