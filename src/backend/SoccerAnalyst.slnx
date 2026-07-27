@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="SoccerAnalyst.Api/SoccerAnalyst.Api.csproj" />
+  <Project Path="SoccerAnalyst.Application/SoccerAnalyst.Application.csproj" />
+  <Project Path="SoccerAnalyst.Domain/SoccerAnalyst.Domain.csproj" />
+  <Project Path="SoccerAnalyst.Infrastructure/SoccerAnalyst.Infrastructure.csproj" />
+  <Project Path="SoccerAnalyst.Shared/SoccerAnalyst.Shared.csproj" />
+  <Project Path="SoccerAnalyst.Worker/SoccerAnalyst.Worker.csproj" />
+</Solution>

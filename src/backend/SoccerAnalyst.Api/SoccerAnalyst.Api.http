@@ -1,0 +1,6 @@
+@SoccerAnalyst.Api_HostAddress = http://localhost:5158
+
+GET {{SoccerAnalyst.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
